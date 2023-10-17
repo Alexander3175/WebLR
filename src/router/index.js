@@ -5,6 +5,7 @@ import lrOne from '../components/lrOne.vue'
 import lrtwo from '../components/lrtwo.vue'
 import lrtree from '../components/lrtree.vue'
 import lrfive from '../components/lrfive.vue'
+import lrsix from '../components/lrsix.vue'
 
 const router = createRouter({
     history: createWebHashHistory(),
@@ -28,6 +29,11 @@ const router = createRouter({
         {
             path: '/lrfive/:id',
             component: lrfive
+        }
+        ,
+        {
+            path: '/lrsix/:id',
+            component: lrsix
         }
         
     ]
